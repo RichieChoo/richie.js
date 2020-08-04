@@ -1,0 +1,29 @@
+{
+  "name": "package2",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "zhucb <zhucb@bsfit.com.cn>",
+  "homepage": "https://github.com/RichieChoo/richie.js#readme",
+  "license": "ISC",
+  "main": "lib/package2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://10.100.1.25:4873/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichieChoo/richie.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/RichieChoo/richie.js/issues"
+  }
+}
